@@ -1,6 +1,6 @@
 {
   "name": "tailwind-mix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension of Laravel Mix to quickly get up and running with tailwindcss",
   "main": "index.js",
   "scripts": {
