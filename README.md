@@ -1,6 +1,6 @@
 # Tailwind Mix
 
-This extension provides instant Tailwind support to Laravel Mix (v4.x and up) builds.
+This extension provides instant Tailwindcss support to Laravel Mix builds.
 
 ## Usage
 
@@ -19,13 +19,13 @@ require('tailwind-mix');
 
 mix
     .js('resources/js/app.js', 'public/js')
-    .less('resources/less/app.less', 'public/css')
+    .sass('resources/sass/app.scss', 'public/css')
     .tailwind();
 ```
 
 ## Next steps
 
-This package requries tailwind.js, so don't forget to run:
+This package requires tailwind configuration (tailwind.js or tailwind.config.js), so don't forget to run:
 
 ```
 npx tailwindcss init
