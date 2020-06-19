@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-mix",
+  "version": "1.0.0",
+  "description": "An extension of Laravel Mix to quickly get up and running with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhushangaykawad/tailwind-mix.git"
+  },
+  "keywords": [
+    "tailwind-mix",
+    "laravel-mix",
+    "tailwindcss",
+    "laravel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhushangaykawad/tailwind-mix/issues"
+  },
+  "homepage": "https://github.com/bhushangaykawad/tailwind-mix#readme",
+  "peerDependencies": {
+    "laravel-mix": "^4.1.4"
+  }
+}
