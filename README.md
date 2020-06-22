@@ -6,7 +6,7 @@ This extension provides instant Tailwindcss support to Laravel Mix builds.
 
 First, install the extension.
 
-```
+```bash
 npm install tailwind-mix --save-dev
 ```
 
@@ -27,14 +27,13 @@ mix
 
 This package requires tailwind configuration (tailwind.js or tailwind.config.js), so don't forget to run:
 
-```
+```bash
 npx tailwindcss init
-npm run dev
 ```
 
 app.scss file example:
 
-```
+```scss
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
