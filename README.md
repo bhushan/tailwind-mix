@@ -1,5 +1,10 @@
 # Tailwind Mix
 
+![npm](https://img.shields.io/npm/v/tailwind-mix)
+![NPM](https://img.shields.io/npm/l/tailwind-mix)
+![npm](https://img.shields.io/npm/dw/tailwind-mix)
+![npm bundle size](https://img.shields.io/bundlephobia/min/tailwind-mix)
+
 This extension provides instant Tailwindcss support to Laravel Mix builds.
 
 ## Usage
@@ -42,4 +47,4 @@ app.scss file example:
 
 And you're done! Compile everything down with `npm run dev`
 
-[More information about the Tailwind directives](https://tailwindcss.com/docs/installation#2-add-tailwind-to-your-css) to your Sass/Less/Stylus entry file.)
+[More information about the Tailwind directives](https://tailwindcss.com/docs/installation#2-add-tailwind-to-your-css) to your Sass/Less entry file.
