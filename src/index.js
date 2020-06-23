@@ -1,6 +1,6 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
-let fs = require('fs')
+const fs = require('fs')
 
 class Tailwind {
     dependencies() {
@@ -30,7 +30,11 @@ class Tailwind {
             Config.processCssUrls = false;
         }
 
-        let tailwindcss = require('tailwindcss');
+        if (Mix.components.has('postCss') && Mix.seesNpmPackage('postcss-import')) {
+            Config.postCss.push(require('postcss-import'));
+        }
+
+        const tailwindcss = require('tailwindcss');
 
         Config.postCss.push(tailwindcss(this.configPath));
     }
