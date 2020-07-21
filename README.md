@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/tailwind-mix)
 ![NPM](https://img.shields.io/npm/l/tailwind-mix)
-![npm](https://img.shields.io/npm/dw/tailwind-mix)
+![npm](https://img.shields.io/npm/dm/tailwind-mix)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/tailwind-mix)
 
 This extension provides instant Tailwindcss support to Laravel Mix builds.
@@ -34,6 +34,18 @@ This package requires tailwind configuration (tailwind.js or tailwind.config.js)
 
 ```bash
 npx tailwindcss init
+```
+Above command will create `tailwind.js` or `tailwind.config.js` file for you.
+
+In case for any reason you want to change file name to different from default you can pass file path as an argument.
+
+**Example:**
+
+```js
+mix
+    .js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .tailwind('./filename.js');
 ```
 
 app.scss file example:

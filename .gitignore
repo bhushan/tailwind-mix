@@ -1,0 +1,6 @@
+.vscode
+.idea
+/node_modules
+.php_cs.cache
+npm-debug.log
+yarn-error.log
