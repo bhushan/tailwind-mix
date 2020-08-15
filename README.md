@@ -1,9 +1,9 @@
 # Tailwind Mix
 
-![npm](https://img.shields.io/npm/v/tailwind-mix)
-![NPM](https://img.shields.io/npm/l/tailwind-mix)
-![npm](https://img.shields.io/npm/dt/tailwind-mix)
-![npm bundle size](https://img.shields.io/bundlephobia/min/tailwind-mix)
+![npm](https://img.shields.io/npm/v/tailwind-mix?style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/tailwind-mix?style=for-the-badge)
+![npm](https://img.shields.io/npm/dt/tailwind-mix?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/tailwind-mix?style=for-the-badge)
 
 This extension provides instant Tailwindcss support to Laravel Mix builds.
 
